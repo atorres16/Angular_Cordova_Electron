@@ -172,6 +172,12 @@ npm run start:cordova-android
 ```
 ![](images/2020-09-12-16-26-04.png)
 
+If you're cloning the repository, remove and re-add the cordova platform to reinstall any missing dependency
+```
+cordova platform remove android
+cordova platform add android
+```
+
 ## Problems
 If you get errors, you'll have some fun updating the Java and Android SDK, you'll need to check you have the required version of Android API level installed, you'll need to have the environment variables pointing to the right places. [PLEASE READ THE CORDOVA PLATFORM GUIDE FOR ANDROID](https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html), it contains all you need to know.
 

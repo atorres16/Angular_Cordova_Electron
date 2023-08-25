@@ -27,7 +27,7 @@
     npm install --save-dev electron
     ```
 5. Inside ***angular-app*** create a file and name it ***main.js***
-6. Copy the code the from the [first app tutorial in the Electron web site](https://www.electronjs.org/docs/tutorial/first-app#installing-electron) and past it ***main.js*** 
+6. Copy the code the from the [first app tutorial in the Electron web site](https://www.electronjs.org/docs/tutorial/first-app#installing-electron) and paste it in ***main.js*** 
     ```javascript
     const { app, BrowserWindow } = require('electron')
 
